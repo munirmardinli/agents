@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "postbuild": "npm run build && node dist/main.js"
+    "postbuild": "node dist/main.js"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
