@@ -1,0 +1,14 @@
+# Modules
+node_modules/
+
+# Compile
+dist/
+
+# Style VSCode
+.vscode
+
+# Agents
+.cursor/agents/
+.claude/agents/
+.gemini/agents/
+.github/agents/

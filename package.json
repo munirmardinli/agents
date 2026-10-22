@@ -1,0 +1,27 @@
+{
+  "name": "cross-platform-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "readme": "README.md",
+  "license": "MIT",
+  "homepage": "https://munir.mardinli.dev",
+  "engines": {
+    "node": ">=22"
+  },
+  "author": {
+    "name": "Munir Mardinli",
+    "url": "https://munir.mardinli.dev"
+  },
+  "contributors": [
+    "munirmardinli"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "generate": "npm run build && node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
